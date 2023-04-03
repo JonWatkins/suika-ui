@@ -1,0 +1,1 @@
+(function(e,n){typeof exports=="object"&&typeof module<"u"?n(exports):typeof define=="function"&&define.amd?define(["exports"],n):(e=typeof globalThis<"u"?globalThis:e||self,n(e.suikaUi={}))})(this,function(e){"use strict";const n="",i="1.0.0";e.version=i,Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

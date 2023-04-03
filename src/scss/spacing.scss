@@ -1,0 +1,10 @@
+@each $side, $value in $sides {
+  @each $space in $spacing {
+    .m#{$side}-#{$space} {
+      margin-#{$value}: #{calc($space/4)}rem!important;
+    }
+    .p#{$side}-#{$space} {
+      margin-#{$value}: #{calc($space/4)}rem!important;
+    }
+  }
+}
