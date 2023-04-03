@@ -1,4 +1,4 @@
-# Suika ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/JonWatkins/suika-ui/main.yml) ![npm](https://img.shields.io/npm/v/suika-ui) ![GitHub](https://img.shields.io/github/license/JonWatkins/suika-ui) [![codecov](https://codecov.io/gh/JonWatkins/suika-ui/branch/main/graph/badge.svg?token=CZ8QB5X8S5)](https://codecov.io/gh/JonWatkins/suika-ui)
+# Suika UI ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/JonWatkins/suika-ui/main.yml) ![npm](https://img.shields.io/npm/v/suika-ui) ![GitHub](https://img.shields.io/github/license/JonWatkins/suika-ui) [![codecov](https://codecov.io/gh/JonWatkins/suika-ui/branch/main/graph/badge.svg?token=CZ8QB5X8S5)](https://codecov.io/gh/JonWatkins/suika-ui)
 
 Suika UI (WIP) is a lightweight UI library for the Suika framework.
 
