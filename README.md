@@ -4,7 +4,7 @@ Suika UI (WIP) is a lightweight UI library for the Suika framework.
 
 ## Installation
 
-You can use as a `suika` package on `npm`
+You can use `suika-ui` as a package on `npm`
 
 ```bash
 npm install suika-ui@latest
@@ -13,9 +13,9 @@ npm install suika-ui@latest
 Or you can use Suika from a CDN.
 
 ```html
-<link href="https://unpkg.com/suika-ui@1.1.1/dist/style.css" />
-<script src="https://unpkg.com/suika@1.3.5/dist/bundle.umd.js"></script>
-<script src="https://unpkg.com/suika-ui@1.1.1/dist/bundle.umd.js"></script>
+<link href="https://unpkg.com/suika-ui@1.1.2/dist/style.css" />
+<script src="https://unpkg.com/suika@1.3.6/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/suika-ui@1.1.2/dist/bundle.umd.js"></script>
 ```
 
 ## Documentation
