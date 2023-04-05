@@ -35,11 +35,11 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-namespace": "off"
   },
   globals: {
     describe: true,
     it: true,
-    expect: true,
-    h: true
+    expect: true
   }
 };
