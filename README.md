@@ -13,9 +13,9 @@ npm install suika-ui@latest
 Or you can use Suika from a CDN.
 
 ```html
-<link href="https://unpkg.com/suika-ui@1.1.0/dist/style.css" />
+<link href="https://unpkg.com/suika-ui@1.1.1/dist/style.css" />
 <script src="https://unpkg.com/suika@1.3.5/dist/bundle.umd.js"></script>
-<script src="https://unpkg.com/suika-ui@1.1.0/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/suika-ui@1.1.1/dist/bundle.umd.js"></script>
 ```
 
 ## Documentation
@@ -27,7 +27,6 @@ Documentation is comming soon.
 ```jsx
 import { Component, mount, h } from "suika";
 import { Card, CardHeader, CardTitle, CardBody, Button } from "suika-ui";
-
 
 const root = document.getElementBytId("app");
 
@@ -55,40 +54,4 @@ class App extends Component {
 }
 
 mount(App, root);
-```
-
-## JavaScript
-
-```html
-<script src="https://unpkg.com/suika@1.3.5/dist/bundle.umd.js"></script>
-<script src="https://unpkg.com/suika-ui@1.1.0/dist/bundle.umd.js"></script>
-<script type="text/javascript">
-  const root = document.getElementBytId("app");
-
-  class App extends Suika.Component {
-    state = {
-      count: 0,
-    };
-
-    inc() {
-      this.state.count++;
-    }
-
-    render() {
-      suikaUI.Card(
-        {},
-        suikaUI.CardHeader(
-          { className: "bg-light" },
-          suikaUI.CardTitle({ is: "h2" }, this.state.count)
-        ),
-        suikaUI.CardBody(
-          {},
-          suikaUI.Button({ onClick: () => this.inc() }, "Inc")
-        )
-      );
-    }
-  }
-
-  suika.mount(App, root);
-</script>
 ```

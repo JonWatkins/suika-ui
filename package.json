@@ -1,9 +1,9 @@
 {
   "name": "suika-ui",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Suika UI is a lightweight UI library for the Suika framework",
   "homepage": "https://jonwatkins.github.io/suika-ui/",
-  "author": "Jon Watkins <jwatkins@gmail.com>",
+  "author": "Jon Watkins",
   "license": "MIT",
   "repository": {
     "type": "git",
