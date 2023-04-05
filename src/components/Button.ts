@@ -1,5 +1,5 @@
-import { h } from "suika";
-import { getTagName, fixOptions, ElementOptions } from "../utils";
+import { h, fixOptions } from "suika";
+import { getTagName, ElementOptions } from "../utils";
 
 export const Button = (
   options: ElementOptions = {},

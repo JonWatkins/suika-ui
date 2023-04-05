@@ -1,5 +1,5 @@
-import { h } from "suika";
-import { fixOptions, ElementOptions } from "../utils";
+import { h, fixOptions } from "suika";
+import { ElementOptions } from "../utils";
 
 export const Input = (options: ElementOptions = {}) => {
   const props = fixOptions(options, {
