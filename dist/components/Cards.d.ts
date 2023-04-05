@@ -1,6 +1,6 @@
-import { ElementOptions } from "../utils";
-export declare const Card: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
-export declare const CardHeader: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
-export declare const CardTitle: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
-export declare const CardBody: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
-export declare const CardFooter: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
+import type { vNode, vAttrs } from "suika/dist/vdom";
+export declare const Card: (options?: vAttrs, children?: vNode[]) => vNode;
+export declare const CardHeader: (options?: vAttrs, children?: vNode[]) => vNode;
+export declare const CardTitle: (options?: vAttrs, children?: vNode[]) => vNode;
+export declare const CardBody: (options?: vAttrs, children?: vNode[]) => vNode;
+export declare const CardFooter: (options?: vAttrs, children?: vNode[]) => vNode;

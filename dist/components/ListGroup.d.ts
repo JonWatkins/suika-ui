@@ -1,3 +1,3 @@
-import { ElementOptions } from "../utils";
-export declare const ListGroup: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
-export declare const ListGroupItem: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
+import type { vNode, vAttrs } from "suika/dist/vdom";
+export declare const ListGroup: (options?: vAttrs, children?: vNode[]) => vNode;
+export declare const ListGroupItem: (options?: vAttrs, children?: vNode[]) => vNode;

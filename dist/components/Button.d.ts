@@ -1,2 +1,2 @@
-import { ElementOptions } from "../utils";
-export declare const Button: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
+import type { vNode, vAttrs } from "suika/dist/vdom";
+export declare const Button: (options?: vAttrs, children?: vNode[]) => vNode;

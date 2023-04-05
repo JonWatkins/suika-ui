@@ -1,7 +1,7 @@
 import { h, fixOptions } from "suika";
-import { ElementOptions } from "../utils";
+import type { vNode, vAttrs } from "suika/dist/vdom";
 
-export const Input = (options: ElementOptions = {}) => {
+export const Input = (options: vAttrs = {}): vNode => {
   const props = fixOptions(options, {
     className: "form-control",
   });
@@ -10,9 +10,9 @@ export const Input = (options: ElementOptions = {}) => {
 };
 
 export const InputGroup = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const props = fixOptions(options, {
     className: "input-group",
   });

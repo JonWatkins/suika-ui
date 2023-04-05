@@ -1,10 +1,10 @@
 import { h, fixOptions } from "suika";
-import { ElementOptions } from "../utils";
+import type { vNode, vAttrs } from "suika/dist/vdom";
 
 export const ListGroup = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const props = fixOptions(options, {
     className: "list-group",
   });
@@ -13,9 +13,9 @@ export const ListGroup = (
 };
 
 export const ListGroupItem = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const props = fixOptions(options, {
     className: "list-group-item",
   });

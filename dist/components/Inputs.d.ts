@@ -1,3 +1,3 @@
-import { ElementOptions } from "../utils";
-export declare const Input: (options?: ElementOptions) => import("suika/dist/vdom").vNode;
-export declare const InputGroup: (options?: ElementOptions, children?: Array<any>) => import("suika/dist/vdom").vNode;
+import type { vNode, vAttrs } from "suika/dist/vdom";
+export declare const Input: (options?: vAttrs) => vNode;
+export declare const InputGroup: (options?: vAttrs, children?: vNode[]) => vNode;

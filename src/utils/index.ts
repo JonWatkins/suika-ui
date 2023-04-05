@@ -1,10 +1,7 @@
 import { isObject } from "suika";
+import type { vAttrs } from "suika/dist/vdom";
 
-export type ElementOptions = {
-  [_: string]: any;
-};
-
-export const getTagName = (options: ElementOptions, tag = "div") => {
+export const getTagName = (options: vAttrs, tag = "div"): string => {
   if (isObject(options) && typeof options.is === "string") {
     tag = options.is;
   }

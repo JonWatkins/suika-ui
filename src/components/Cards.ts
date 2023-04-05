@@ -1,10 +1,8 @@
 import { h, fixOptions } from "suika";
-import { getTagName, ElementOptions } from "../utils";
+import { getTagName } from "../utils";
+import type { vNode, vAttrs } from "suika/dist/vdom";
 
-export const Card = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+export const Card = (options: vAttrs = {}, children: vNode[] = []): vNode => {
   const props = fixOptions(options, {
     className: "card",
   });
@@ -13,9 +11,9 @@ export const Card = (
 };
 
 export const CardHeader = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const props = fixOptions(options, {
     className: "card-header",
   });
@@ -24,9 +22,9 @@ export const CardHeader = (
 };
 
 export const CardTitle = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const tag = getTagName(options, "h1");
   const props = fixOptions(options, {
     className: "card-title",
@@ -36,9 +34,9 @@ export const CardTitle = (
 };
 
 export const CardBody = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const props = fixOptions(options, {
     className: "card-body",
   });
@@ -47,9 +45,9 @@ export const CardBody = (
 };
 
 export const CardFooter = (
-  options: ElementOptions = {},
-  children: Array<any> = []
-) => {
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
   const props = fixOptions(options, {
     className: "card-footer",
   });
