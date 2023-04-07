@@ -13,9 +13,9 @@ npm install suika-ui@latest
 Or you can use Suika from a CDN.
 
 ```html
-<link href="https://unpkg.com/suika-ui@1.1.4/dist/style.css" />
-<script src="https://unpkg.com/suika@1.3.7/dist/bundle.umd.js"></script>
-<script src="https://unpkg.com/suika-ui@1.1.4/dist/bundle.umd.js"></script>
+<link href="https://unpkg.com/suika-ui@1.1.5/dist/style.css" />
+<script src="https://unpkg.com/suika@1.3.8/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/suika-ui@1.1.5/dist/bundle.umd.js"></script>
 ```
 
 ## Documentation
