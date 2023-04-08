@@ -12,3 +12,14 @@ export const Button = (options: vAttrs = {}, children: vNode[] = []): vNode => {
 
   return h(tag, props, ...children);
 };
+
+export const ButtonGroup = (
+  options: vAttrs = {},
+  children: vNode[] = []
+): vNode => {
+  const props = fixOptions(options, {
+    className: "btn-group",
+  });
+
+  return h("div", props, ...children);
+};

@@ -45,6 +45,15 @@ html {
   text-align: end;
 }
 
+.btn-group > :first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn-group > :not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 .btn {
   border-radius: 0.25rem;
   border-style: solid;
@@ -52,6 +61,7 @@ html {
   text-decoration: none;
   outline: none;
   display: inline-block;
+  cursor: pointer;
 }
 
 .btn-sm {
@@ -628,6 +638,10 @@ img {
   font-weight: bold;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .mt-0 {
   margin-top: 0rem !important;
 }
@@ -826,6 +840,10 @@ img {
 
 .pt-24 {
   margin-top: 6rem !important;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .mb-0 {
@@ -1028,6 +1046,10 @@ img {
   margin-bottom: 6rem !important;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-0 {
   margin-left: 0rem !important;
 }
@@ -1226,6 +1248,10 @@ img {
 
 .pl-24 {
   margin-left: 6rem !important;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .mr-0 {

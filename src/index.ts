@@ -1,5 +1,5 @@
 import "./scss/styles.scss";
-export { Button } from "./components/Button";
+export { Button, ButtonGroup } from "./components/Button";
 export { Input, InputGroup } from "./components/Inputs";
 export { ListGroup, ListGroupItem } from "./components/ListGroup";
 

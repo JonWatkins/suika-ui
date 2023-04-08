@@ -1,4 +1,7 @@
 @each $side, $value in $sides {
+  .m#{$side}-auto{
+    margin-#{$value}: auto;
+  }
   @each $space in $spacing {
     .m#{$side}-#{$space} {
       margin-#{$value}: #{calc($space/4)}rem!important;
